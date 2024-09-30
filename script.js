@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   
     function updateStrengthBar(strength) {
-      strengthBar.className = ''; // Reset class for color
+      strengthBar.className = '';
       strengthBar.style.width = '0';
       strengthText.textContent = 'Password Strength: ';
   
